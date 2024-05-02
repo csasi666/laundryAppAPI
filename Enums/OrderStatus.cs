@@ -2,9 +2,9 @@ namespace api.Models
 {
     public enum OrderStatus
     {
-        Cancelled,
-        Completed,
+        Pending,
         InProgress,
-        Pending
+        Completed,
+        Cancelled
     }
 }

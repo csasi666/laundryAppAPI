@@ -43,7 +43,7 @@ namespace api.Controllers
             return Ok(CustomerDetail);
         }
 
-        [HttpGet("GetMobileNumbers")]
+        [HttpGet("GetMobileNumbersBasedOnLocation")]
         public IActionResult GetMobileNumbers(decimal latitude, decimal longitude)
         {
             // Query the database to find customer details based on latitude and longitude
